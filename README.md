@@ -90,5 +90,5 @@ For any queries or collaborations, reach out via email at **skshivamkaushik16@gm
 
 ---
 
-A smooth and efficient movie booking experience awaits with **CineBooking**! 🎬🍿
+
 
