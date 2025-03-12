@@ -74,7 +74,7 @@ Ensure you have the following installed on your system:
 ## 🔗 Live Demo & Repository
 
 - **GitHub Repository:** [CineBooking](https://github.com/Shivaam16/Cine-booking)
-- **Live Project:** [CineBooking Live](https://ceni-booking-frontend.onrender.com/)
+- **Live Project:** [CineBooking](https://ceni-booking-frontend.onrender.com/)
 
 ## 📜 License
 
