@@ -1,70 +1,93 @@
-# Hi 👋, I'm Shivam Kaushik
+# 🎥 CineBooking - Movie Ticket Booking Website
 
-## 🚀 Software Engineer | MERN Stack Developer | Open to Work
+## 📌 Introduction
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=Passionate+Developer;MERN+Stack+%7C+C%2B%2B+%7C+Python;Building+Scalable+Solutions;Always+Learning+New+Techs!">
-</p>
+CineBooking is a web-based movie ticket booking platform that simplifies the process of reserving movie tickets online. It provides a seamless experience for users, theater owners, and admins to manage bookings, theaters, and movies efficiently.
 
----
+## 🚀 Features
 
-## 🚀 Looking for Opportunities  
-🎯 **Actively seeking a Software Developer role** where I can apply my skills in **MERN stack, backend development, and cloud technologies** to build scalable and efficient solutions. Open to full-time opportunities!
+### 🎭 User Interface (For Customers)
 
----
+- **Movie Listings:** Browse available movies with details such as showtimes, theater locations, and pricing.
+- **Seat Selection:** Choose preferred seats using an interactive seating arrangement.
+- **Secure Payments:** Complete bookings securely with Razorpay integration.
+- **Booking History:** View past and upcoming reservations.
+- **Reviews & Ratings:** Share feedback on movies and theaters.
 
-## 🏆 GitHub Stats:
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shivaam16&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivaam16&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
+### 🎟️ Owner Interface (For Theater Owners)
 
----
+- **Theater Management:** Add new theaters, set up seating arrangements, and manage listings effortlessly.
+- **Show Scheduling:** Schedule shows with built-in time conflict prevention.
+- **Seat Reservation:** Reserve seats for specific shows to streamline the booking process.
 
-## 🚀 Projects:
-- **CineBooking 🎥** - *Movie ticket booking system with seamless UI & payment integration.*
-- **Homyz 🏠** - *Real estate platform for property listings, scheduling visits, and connecting buyers with agents.*
-- **Weather App 🌦** - *JavaScript-based real-time weather application.*
-- **Sign Language Recognition ✋** - *Machine Learning project using OpenCV & Python.*
+### 🔧 Admin Interface (For Platform Administrators)
 
----
+- **User Management:** Monitor and manage user accounts to ensure secure access.
+- **Movie Management:** Add new movies to keep the selection up to date.
+- **Theater Approval:** Approve newly added theaters, with an automatic confirmation email sent upon approval.
+- **Reviews & Feedback:** Monitor and respond to user reviews for better user experience.
 
-## 🏆 LeetCode Stats:
-<p align="center">
-  <a href="https://leetcode.com/u/skshivamkaushik16/">
-    <img src="https://leetcard.jacoblin.cool/skshivamkaushik16?theme=dark&font=Montserrat&ext=heatmap" alt="LeetCode Stats" />
-  </a>
-</p>
+## 🛠️ Tech Stack
 
----
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT (JSON Web Token)
+- **Hosting:** Deployed on a cloud-based service
+- **Payment Gateway:** Razorpay
 
-## ⚡ Tech Stack:
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+## 📌 Installation Guide
 
----
+### Prerequisites
 
-## 🌐 Connect with Me:
-<p align="center">
-  <a href="https://www.linkedin.com/in/shivam-kaushik-31a450228/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:skshivamkaushik16@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/Shivaam16">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+Ensure you have the following installed on your system:
 
----
+- **Node.js** (v16 or later)
+- **MongoDB** (local or cloud instance)
+- **Git**
 
-⭐ **Let's build something amazing together!** 🚀
+### Steps to Set Up Locally
+
+1. **Clone the Repository:**
+   
+bash
+   git clone https://github.com/Shivaam16/Cine-booking.git
+   cd Cine-booking
+
+2. **Install Dependencies:**
+   
+bash
+   npm install
+
+3. **Set Up Environment Variables:**
+   - Create a .env file in the root directory.
+   - Add the necessary configuration values (e.g., database URL, API keys, JWT secret).
+4. **Start the Backend Server:**
+   
+bash
+   npm run server
+
+5. **Start the Frontend Server:**
+   
+bash
+   npm start
+
+6. **Access the Application:**
+   - Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🔗 Live Demo & Repository
+
+- **GitHub Repository:** [CineBooking](https://github.com/Shivaam16/Cine-booking)
+- **Live Project:** [CineBooking Live](https://ceni-booking-frontend.onrender.com/)
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+## 👥 Contributors
+
+Feel free to contribute! Open a pull request or report issues to help improve the project.
+
+## 📞 Contact
+
+For any queries or collaborations, reach out via email at **skshivamkaushik16@gmail.com** or open an issue on GitHub.
